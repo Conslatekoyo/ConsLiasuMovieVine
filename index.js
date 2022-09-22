@@ -119,3 +119,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         removeAddedComment(button)
     }
+     function removeAddedComment(element) {
+        button.addEventListener('click', () => {
+            element.parentNode.remove()
+        })
+    }
+})
+
