@@ -144,3 +144,14 @@ textarea {
     padding: 10px;
 
 }
+
+/* Comments div*/
+ul#added-comments {
+    list-style-type: circle;
+    line-height: 30px;
+    background-color: wheat;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 5px;
+}
