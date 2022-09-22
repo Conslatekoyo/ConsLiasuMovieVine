@@ -104,3 +104,18 @@ document.addEventListener('DOMContentLoaded', () => {
         addComment(e.target.customer_review.value)
         commentsForm.reset()
     })
+
+      function addComment(userComment) {
+
+        const li=document.createElement('li')
+        li.innerText = userComment
+        button = document.createElement('button')
+        button.style.marginLeft = "10px"
+        button.style.color= "red"
+        button.style.backgroundColor = "black"
+        button.innerText = 'undo'
+        li.appendChild(button)
+        addedComments.appendChild(li)
+
+        removeAddedComment(button)
+    }
