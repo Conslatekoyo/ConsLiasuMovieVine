@@ -98,3 +98,9 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById("search-results"). innerHTML = `<p> <br> <b>${error.message}. Please refresh page and try again. </b> </p>`
         })
     }
+
+     commentsForm.addEventListener('submit', e => {
+        e.preventDefault()
+        addComment(e.target.customer_review.value)
+        commentsForm.reset()
+    })
