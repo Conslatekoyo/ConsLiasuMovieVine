@@ -155,3 +155,24 @@ ul#added-comments {
     font-weight: bold;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 850px) {
+    
+    div#main-container {
+        width: 90vw;
+        margin: 0 auto;
+    }
+    p {font-size: medium;}
+
+    /* Header */
+    img#logo {
+        height: 20vh;
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
+    h1#about {
+        text-align: center;
+        color: red;
+        font-size: larger;
+    }
