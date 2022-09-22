@@ -9,3 +9,16 @@ div#main-container {
     padding-bottom: 50px;
 }
 p {font-size: larger;}
+
+/* Header */
+img#logo {
+    height: 50vh;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+h1#about {
+    text-align: center;
+    color: red;
+    width: 90vw;
+}
