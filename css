@@ -81,3 +81,66 @@ p.movie-info strong {
 #search:active, #submit:active, .to-top:active {
     border: 2px outset black;
 }
+
+/* Search-Results Div */
+#results {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: red 2px dotted;
+    border-top: red 2px dotted;
+}
+img#resulting-image {
+    padding-top: 50px;
+}
+img#resulting-image:hover {
+    width: 40vw;
+}
+div#movie-details-result {
+   width: 55vw;
+}
+p.movie-info {
+    line-height: 2em;
+}
+p.movie-info span {
+    color: red;
+    font-weight: 600;
+}
+p.movie-info strong {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+/* link */
+.to-top {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0 10px 80%;
+    background-color: red;
+    border-radius: 10px;
+    color: wheat;
+    font-weight: 600;
+    height: 2vh;
+    padding: 5px;
+    border: 2px outset wheat;     
+}
+
+/* customer reviews form */
+#customer-reviews-form {
+    margin: 50px 0;
+}
+legend h2 {
+    border-bottom: wheat solid 5px;
+    color: red;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+textarea {
+    background-color: wheat;
+    width: 50vw;
+    border-radius: 5px;
+    height: 20vh;
+    padding: 10px;
+
+}
