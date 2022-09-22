@@ -22,3 +22,35 @@ h1#about {
     color: red;
     width: 90vw;
 }
+/* other movies and series */
+
+.other_movies, .other_series, .other_animations {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+.one, .two, .three {
+    width: 30%;
+}
+button {
+    background-color: wheat;
+}
+.other_movies ul, .other_series ul, .other_animations ul {
+    text-align: left;
+    margin: auto;
+    width: 50%;
+}
+.twenty22, #recommended {
+    border-bottom: solid 1px white;
+}
+p.movie-info {
+    line-height: 2em;
+}
+p.movie-info span {
+    color: red;
+    font-weight: 600;
+}
+p.movie-info strong {
+    font-size: 30px;
+    text-transform: capitalize;
+}
