@@ -54,3 +54,30 @@ p.movie-info strong {
     font-size: 30px;
     text-transform: capitalize;
 }
+
+/* Movie Search Form */
+#search-form {
+    margin-top: 50px;
+    text-align: center;
+}
+#movie_title {
+    border-radius: 5px;
+    text-align: center;
+    height: 5vh;
+    width: 20vw;
+    font-weight: 600;
+    background-color: wheat;
+}
+#search, #submit {
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 10px;
+    color: wheat;
+    font-weight: 600;
+    height: 5vh;
+    padding: 0 2vw;
+    border: 2px outset wheat; 
+}
+#search:active, #submit:active, .to-top:active {
+    border: 2px outset black;
+}
