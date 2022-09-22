@@ -176,3 +176,35 @@ ul#added-comments {
         color: red;
         font-size: larger;
     }
+/* other movies and series*/
+    .other_movies, .other_series, #recommendations, .other_animations {
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+    .one, .three, .two {
+        margin: 20px 0;
+        width: 150%;
+    }
+    /* Search-Results Div */
+    #results {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    img#resulting-image {
+        border-radius: 5px;
+        display: block;
+        margin: 0 auto;
+    }
+    img#resulting-image:hover {
+        width: 80vw;
+        height: 80vh;
+    }
+    div#movie-details-result {
+        text-align: center;
+        margin: auto;
+    }
+    /* customer reviews form */
+    legend h2 { font-size: larger;}
+}
